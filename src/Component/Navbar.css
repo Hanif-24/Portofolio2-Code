@@ -1,0 +1,82 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    background: url("../Aset/Navbar-Bg.png");
+    padding: 0 63px;
+}
+
+.navlist {
+    list-style: none;
+    display: flex;
+    gap: 21px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.nav-item {
+    border-bottom: 2px solid transparent;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-item:hover {
+    border-bottom: 2px solid #2F88FF;
+    transition: 0.5s linear;
+}
+
+.nav-item a:hover {
+    color: #2F88FF;
+    transition: 0.3s linear;
+}
+
+.nav-item .active {
+    color: #2F88FF;
+    border-bottom: 2px solid #2F88FF;
+}
+
+.user {
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+}
+
+.user-dropdown {
+    position:absolute;
+    list-style: none;
+    width: 120px;
+    height: 108px;
+    background-color:rgba(3, 0, 158, 0.69);
+    border-radius: 20px;
+    right: 63px;
+    
+}
+
+.user-dropdown li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(254, 249, 249, 0.12);
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 700;
+    margin: 12px 10px;
+    min-height: 30px;  
+}
+
+.user-dropdown li:nth-child(2) {
+    background: rgba(255, 0, 0, 0.29);
+    margin-top: 22px;
+}
+
+.user-dropdown li:hover{
+    background: rgba(254, 249, 249, 0.421);
+}
+
+.user-dropdown li:active{
+    background: rgba(103, 100, 100, 0.421);
+}

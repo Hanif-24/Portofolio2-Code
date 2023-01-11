@@ -1,0 +1,42 @@
+.footer {
+    height: 150px;
+    padding: 0px 90px 0px 63px;
+    margin-top: 100px;
+    background: url('../Aset/Footer-bg.png');
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 142px;
+    height: 92px;
+}
+
+.footer-logo {
+    display: flex;
+}
+
+.contact{
+    list-style: none;
+    height: fit-content;
+    padding-top: 13px;
+    padding-left: 53px;
+}
+
+.arrow-up {
+    height: 30px;
+    width: 30px;
+    margin-left: -120px;
+}
+
+.sosial-media {
+    display: flex;
+    gap: 25px;
+}
+
+.sosial-media img{
+    height: 30px;
+    width: 30px;
+}
+

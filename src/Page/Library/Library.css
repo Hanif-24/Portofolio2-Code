@@ -1,0 +1,170 @@
+.Library {
+    margin: 0 63px;
+}
+
+.main-title {
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 4px;
+    margin: 110px 0;
+}
+
+.new-planet-form {
+    padding: 0 53px;
+    background-color: rgba(9, 0, 109, 0.51);
+    border-bottom: 3px solid rgba(44, 0, 169, 1);
+    border-radius: 30px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.form-input {
+    max-width:  410px;
+    margin: 30px 20px;
+    display: grid;
+    grid-template-columns: 5fr 3fr;
+    align-items: center;
+}
+
+.form-submit {
+    margin-left: 59px;
+    width: 138px ;
+    height: 188px;
+    background: #07207B;
+    border: 2px solid #FFFFFF;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.form-title {
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.form-name {
+    border-radius: 50px;
+    height: 40px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: left;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    width: 285px;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 15px;
+    line-height: 23px;
+}
+
+.form-file {
+    margin-bottom: 20px;
+}
+
+.form-file::-webkit-file-upload-button {
+    display: none;
+}
+
+.form-file::before {
+    content: 'Select Planet Image';
+    display: inline-block;
+    background: #ffffff;
+    border: 3px solid rgb(82, 14, 190);
+    color: rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    padding: 5px 8px;
+    width: 128px;
+    height: 20px;
+    outline: none;
+    white-space: nowrap;
+    cursor: pointer;
+    text-shadow: 1px 1px #fff;
+    font-weight: 700;
+    font-size: 13px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.form-file:hover::before {
+    border-color: rgb(254, 254, 255);
+}
+.form-file:active::before {
+    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+
+.form-area {
+    width: 410px;
+    height: 127px;
+    resize: none;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 15px;
+    line-height: 23px;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.form-submit:hover {
+    background-color: #04144c;
+}
+
+.form-submit:active {
+    background-color: #2e3651;
+}
+.search {
+    margin-top: 100px;
+    justify-content: center;
+    display: flex;
+    height: 50px;
+}
+
+.search-planet {
+    background: rgba(8, 22, 149, 0.48);
+    color: rgba(255, 255, 255, 0.42);
+    border: none;
+    width: 600px;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 4px;    
+}
+
+.search-button {
+    background: rgba(0, 136, 71, 0.55);
+    width: 156px;
+    font-size: 20px;
+    columns: #fff;
+}
+
+.search-button:hover {
+    background: rgba(2, 69, 37, 0.55);
+}
+
+.search-button:active {
+    background: rgba(52, 90, 72, 0.55);
+}
+
+hr {
+    margin-top: 10px;
+    border-width: 2px;
+    border-color: #101FA9;;  
+}
+
+/* ---- CARD ---- */
+.planet-card {
+    margin-top: 30px;
+    background: url(../../Aset/Sky.png);
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    gap: 172px;
+    text-align: center;
+    align-items: center;
+}
+
+.planet-name {
+    margin: 44px;
+    font-weight: 700;
+    font-size: 35px;
+}
